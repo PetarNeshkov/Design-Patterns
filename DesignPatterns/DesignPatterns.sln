@@ -8,6 +8,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MealFactory", "Creational\A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantFactory", "Creational\Abstract Factory\RestaurantFactory\RestaurantFactory.csproj", "{19DF7068-7BA7-4649-A48A-92D766AFB3CE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Factory Method", "Factory Method", "{0602E900-0FCE-4471-807F-E280DD0B60FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurant Management", "Creational\Factory Method\Restaurant Management\Restaurant Management.csproj", "{68D3D2D6-DB43-4940-9D79-EF1518CD1766}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,10 +26,16 @@ Global
 		{19DF7068-7BA7-4649-A48A-92D766AFB3CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19DF7068-7BA7-4649-A48A-92D766AFB3CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19DF7068-7BA7-4649-A48A-92D766AFB3CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68D3D2D6-DB43-4940-9D79-EF1518CD1766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68D3D2D6-DB43-4940-9D79-EF1518CD1766}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68D3D2D6-DB43-4940-9D79-EF1518CD1766}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68D3D2D6-DB43-4940-9D79-EF1518CD1766}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{12F7F30D-BC8A-4850-A14B-8AD3A3138867} = {D40999C5-B413-4473-9D31-8EFF9EA95F92}
 		{A9803138-4A44-4EE5-A885-6AD00105BBBB} = {12F7F30D-BC8A-4850-A14B-8AD3A3138867}
 		{19DF7068-7BA7-4649-A48A-92D766AFB3CE} = {12F7F30D-BC8A-4850-A14B-8AD3A3138867}
+		{0602E900-0FCE-4471-807F-E280DD0B60FE} = {D40999C5-B413-4473-9D31-8EFF9EA95F92}
+		{68D3D2D6-DB43-4940-9D79-EF1518CD1766} = {0602E900-0FCE-4471-807F-E280DD0B60FE}
 	EndGlobalSection
 EndGlobal
