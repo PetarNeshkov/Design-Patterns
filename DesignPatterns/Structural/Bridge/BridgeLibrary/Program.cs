@@ -10,6 +10,9 @@
 
 using BridgeLibrary.DevicesAndRemotesExample;
 using BridgeLibrary.DocumentsAndFormattersExample;
+using BridgeLibrary.MovieLicenseExample;
 
 DeviceAndRemotesExecutor.Execute();
 DocumentsAndFormattersExecutor.Execute();
+MovieLicenseExecutor.Execute();
+
