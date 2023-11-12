@@ -9,5 +9,7 @@
 //       Aa1 Aa2  Ab1 Ab2
 
 using BridgeLibrary.DevicesAndRemotesExample;
+using BridgeLibrary.DocumentsAndFormattersExample;
 
 DeviceAndRemotesExecutor.Execute();
+DocumentsAndFormattersExecutor.Execute();
