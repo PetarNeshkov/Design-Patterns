@@ -1,4 +1,5 @@
 ﻿using CompositeLibrary.FileSystemExample;
+using CompositeLibrary.GiftExample;
 
 namespace CompositeLibrary;
 
@@ -9,5 +10,6 @@ public class Executor
      public static void Main(string[] args)
      {
           FileSystemExecutor.Execute();
+          GiftExecutor.Execute();
      }
 }
