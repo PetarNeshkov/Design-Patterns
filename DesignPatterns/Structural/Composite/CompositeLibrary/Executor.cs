@@ -1,5 +1,6 @@
 ﻿using CompositeLibrary.FileSystemExample;
 using CompositeLibrary.GiftExample;
+using CompositeLibrary.ShareholdersExample;
 
 namespace CompositeLibrary;
 
@@ -11,5 +12,6 @@ public class Executor
      {
           FileSystemExecutor.Execute();
           GiftExecutor.Execute();
+          ShareholdersExecutor.Execute();
      }
 }
