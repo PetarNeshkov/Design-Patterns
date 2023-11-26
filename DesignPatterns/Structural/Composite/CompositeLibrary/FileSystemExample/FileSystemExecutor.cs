@@ -1,0 +1,25 @@
+namespace CompositeLibrary.FileSystemExample;
+
+public static class FileSystemExecutor
+{
+    public static void Execute()
+    {
+        Console.WriteLine("File system example");
+        
+        var booksFolder = new Folder("Books");
+        var cSharpFolder = new Folder("C#");
+        var designPatternsFolder = new Folder("Design patterns");
+        
+        booksFolder.Add(cSharpFolder);
+        booksFolder.Add(designPatternsFolder);
+        
+        cSharpFolder.Add(new File("C#_12.0_in_a_nutshell.pdf", 11.1));
+        cSharpFolder.Add(new File("C#_in_depth.pd", 4.9));
+        
+        designPatternsFolder.Add(new File("Head_first_design_patterns.pdf", 20.0));
+        
+        Console.WriteLine($"Total size of 'Books' folder: {booksFolder.GetSizeInMB()} MB");
+        Console.WriteLine($"Total size of 'C#' folder: {cSharpFolder.GetSizeInMB()} MB");
+        Console.WriteLine($"Total size of 'Design patterns' folder : {designPatternsFolder.GetSizeInMB()} MB");
+    }
+}
