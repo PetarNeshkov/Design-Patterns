@@ -46,6 +46,15 @@
         <Compile Include="DataStorageExample\Decorators\Common\DataSourceDecorator.cs" />
         <Compile Include="DataStorageExample\Decorators\CompressionDecorator.cs" />
         <Compile Include="DataStorageExample\Decorators\EncryptionDecorator.cs" />
+        <Compile Include="PancakeExample\Components\BigPancake.cs" />
+        <Compile Include="PancakeExample\Components\Common\Pancake.cs" />
+        <Compile Include="PancakeExample\Components\SmallPancake.cs" />
+        <Compile Include="PancakeExample\Decorators\Common\PancakeDecorator.cs" />
+        <Compile Include="PancakeExample\Decorators\MapleSyrup.cs" />
+        <Compile Include="PancakeExample\Decorators\MixedBerries.cs" />
+        <Compile Include="PancakeExample\Decorators\Nutella.cs" />
+        <Compile Include="PancakeExample\Decorators\WhippedCream.cs" />
+        <Compile Include="PancakeExample\PancakeExecutor.cs" />
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
