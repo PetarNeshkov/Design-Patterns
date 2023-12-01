@@ -50,6 +50,15 @@
         <Compile Include="MortgageExample\Subsystem\Loan.cs" />
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
+        <Compile Include="WeatherServiceExample\After\AfterExecutor.cs" />
+        <Compile Include="WeatherServiceExample\After\TemperatureFacade\LocalTemperature.cs" />
+        <Compile Include="WeatherServiceExample\After\TemperatureFacade\TemperatureLookupService.cs" />
+        <Compile Include="WeatherServiceExample\Before\BeforeExecutor.cs" />
+        <Compile Include="WeatherServiceExample\Service\Coordinates.cs" />
+        <Compile Include="WeatherServiceExample\Service\GeoLookupService.cs" />
+        <Compile Include="WeatherServiceExample\Service\TemperatureConverter.cs" />
+        <Compile Include="WeatherServiceExample\Service\WeatherService.cs" />
+        <Compile Include="WeatherServiceExample\WeatherServiceExecutor.cs" />
     </ItemGroup>
     <ItemGroup>
       <Content Include="Assets\pattern-structure.png" />
