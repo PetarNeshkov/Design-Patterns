@@ -57,6 +57,12 @@
         <Compile Include="LoggingProxyExample\RealSubject.cs" />
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
+        <Compile Include="ProtectionProxyExample\Common\ISharedFolder.cs" />
+        <Compile Include="ProtectionProxyExample\Employee.cs" />
+        <Compile Include="ProtectionProxyExample\ProtectionProxyExecutor.cs" />
+        <Compile Include="ProtectionProxyExample\Role.cs" />
+        <Compile Include="ProtectionProxyExample\SharedFolder.cs" />
+        <Compile Include="ProtectionProxyExample\SharedFolderProxy.cs" />
     </ItemGroup>
     <ItemGroup>
       <Content Include="Assets\pattern-structure.png" />

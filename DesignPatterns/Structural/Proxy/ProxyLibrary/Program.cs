@@ -1,5 +1,6 @@
 ﻿using ProxyLibrary.CachingProxyExample;
 using ProxyLibrary.LoggingProxyExample;
+using ProxyLibrary.ProtectionProxyExample;
 
 namespace ProxyLibrary
 {
@@ -17,7 +18,7 @@ namespace ProxyLibrary
         {
             CachingProxyExecutor.Execute();
             LoggingProxyExecutor.Execute();
-
+            ProtectionProxyExecutor.Execute();
         }
     }
 }
