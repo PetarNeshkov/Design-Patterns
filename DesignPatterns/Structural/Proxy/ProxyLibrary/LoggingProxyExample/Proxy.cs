@@ -1,0 +1,45 @@
+using System;
+using ProxyLibrary.LoggingProxyExample.Common;
+
+namespace ProxyLibrary.LoggingProxyExample;
+
+/// <summary>
+/// The Proxy has an interface identical to the RealSubject.
+/// </summary>
+public class Proxy : ISubject
+{
+    private readonly RealSubject realSubject;
+
+    public Proxy(RealSubject realSubject)
+    {
+        this.realSubject = realSubject;
+    }
+    
+    /// <summary>
+    /// The most common applications of the Proxy pattern are
+    /// lazy loading, caching, controlling the access, logging, etc.
+    /// A Proxy can perform one of these things and then, depending on the result,
+    /// pass the execution to the same method in a linked RealSubject object.
+    /// </summary>
+    public void Request()
+    {
+        if (!CheckAccess())
+        {
+            return;
+        }
+
+        realSubject.Request();
+        LogAccess();
+    }
+    
+    private bool CheckAccess()
+    {
+        // Some real checks should go here.
+        Console.WriteLine("Proxy: Checking access prior to firing a real request.");
+
+        return true;
+    }
+
+    private void LogAccess() 
+        => Console.WriteLine($"Proxy: Request is issued at {DateTime.Now}");
+}

@@ -50,6 +50,11 @@
         <Compile Include="CachingProxyExample\ThirdParty\ContentStorage.cs" />
         <Compile Include="CachingProxyExample\ThirdParty\MetaDataStorage.cs" />
         <Compile Include="CachingProxyExample\ThirdParty\Youtube.cs" />
+        <Compile Include="LoggingProxyExample\Client.cs" />
+        <Compile Include="LoggingProxyExample\Common\ISubject.cs" />
+        <Compile Include="LoggingProxyExample\LoggingProxyExecutor.cs" />
+        <Compile Include="LoggingProxyExample\Proxy.cs" />
+        <Compile Include="LoggingProxyExample\RealSubject.cs" />
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
