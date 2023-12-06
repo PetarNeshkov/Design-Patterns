@@ -1,6 +1,6 @@
-using CustomSandwitchBuilder.Builders.Products.Enums;
+using CustomSandwichBuilder.Builders.Products.Enums;
 
-namespace CustomSandwitchBuilder.Builders.Products;
+namespace CustomSandwichBuilder.Builders.Products;
 
 /// <summary>
 /// Products are resulting objects. 

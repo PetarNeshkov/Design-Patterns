@@ -1,4 +1,4 @@
-using CustomSandwitchBuilder.Builders.Products;
+using CustomSandwichBuilder.Builders.Products;
 
 namespace CustomSandwichBuilder.Builders.Common;
 

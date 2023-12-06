@@ -1,4 +1,4 @@
-using PrototypeLibrary.DeepCloneExample.Extensions;
+using PrototypeLibrary.DeepClone.Extensions;
 
 namespace PrototypeLibrary.DeepClone.Models;
 

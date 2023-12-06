@@ -1,4 +1,4 @@
-namespace CustomSandwitchBuilder.Builders.Products.Enums;
+namespace CustomSandwichBuilder.Builders.Products.Enums;
 
 public enum CheeseType
 {

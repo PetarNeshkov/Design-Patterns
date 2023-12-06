@@ -1,6 +1,6 @@
 using Newtonsoft.Json;
 
-namespace PrototypeLibrary.DeepCloneExample.Extensions;
+namespace PrototypeLibrary.DeepClone.Extensions;
 
 public static class SystemExtension
 {

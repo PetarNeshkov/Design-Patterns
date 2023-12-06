@@ -1,6 +1,6 @@
 using CustomSandwichBuilder.Builders.Common;
-using CustomSandwitchBuilder.Builders.Products;
-using CustomSandwitchBuilder.Builders.Products.Enums;
+using CustomSandwichBuilder.Builders.Products;
+using CustomSandwichBuilder.Builders.Products.Enums;
 
 namespace CustomSandwichBuilder.Builders;
 
