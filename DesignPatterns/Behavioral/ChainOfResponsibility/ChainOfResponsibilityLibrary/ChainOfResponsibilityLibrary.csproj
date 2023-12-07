@@ -68,6 +68,14 @@
         <Compile Include="PokerExample\PokerExecutor.cs" />
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
+        <Compile Include="PurchaseApprovalExample\Common\Approver.cs" />
+        <Compile Include="PurchaseApprovalExample\Common\Purchase.cs" />
+        <Compile Include="PurchaseApprovalExample\Handlers\Director.cs" />
+        <Compile Include="PurchaseApprovalExample\Handlers\ExecutiveMeeting.cs" />
+        <Compile Include="PurchaseApprovalExample\Handlers\Manager.cs" />
+        <Compile Include="PurchaseApprovalExample\Handlers\President.cs" />
+        <Compile Include="PurchaseApprovalExample\Handlers\VicePresident.cs" />
+        <Compile Include="PurchaseApprovalExample\PurchaseApprovalExecutor.cs" />
     </ItemGroup>
     <ItemGroup>
       <Content Include="Assets\pattern-structure.png" />

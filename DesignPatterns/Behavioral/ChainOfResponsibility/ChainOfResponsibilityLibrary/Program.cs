@@ -1,5 +1,6 @@
 ﻿using ChainOfResponsibilityLibrary.LoggingExample;
 using ChainOfResponsibilityLibrary.PokerExample;
+using ChainOfResponsibilityLibrary.PurchaseApprovalExample;
 
 namespace ChainOfResponsibilityLibrary
 {
@@ -12,7 +13,7 @@ namespace ChainOfResponsibilityLibrary
         {
             LoggingExecutor.Execute();
             PokerExecutor.Execute();
-
+            PurchaseApprovalExecutor.Execute();
         }
     }
 }
