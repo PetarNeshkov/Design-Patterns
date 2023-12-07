@@ -47,6 +47,25 @@
         <Compile Include="LoggingExample\Loggers\FileLogger.cs" />
         <Compile Include="LoggingExample\Loggers\PriorityLogger.cs" />
         <Compile Include="LoggingExample\LoggingExecutor.cs" />
+        <Compile Include="PokerExample\Categorizers\Common\HandCategorizer.cs" />
+        <Compile Include="PokerExample\Categorizers\FlushCategorizer.cs" />
+        <Compile Include="PokerExample\Categorizers\FourOfAKindCategorizer.cs" />
+        <Compile Include="PokerExample\Categorizers\FullHouseCategorizer.cs" />
+        <Compile Include="PokerExample\Categorizers\HighCardCategorizer.cs" />
+        <Compile Include="PokerExample\Categorizers\PairCategorizer.cs" />
+        <Compile Include="PokerExample\Categorizers\RoyalFlushCategorizer.cs" />
+        <Compile Include="PokerExample\Categorizers\StraightCategorizer.cs" />
+        <Compile Include="PokerExample\Categorizers\StraightFlushCategorizer.cs" />
+        <Compile Include="PokerExample\Categorizers\ThreeOfAKindCategorizer.cs" />
+        <Compile Include="PokerExample\Categorizers\TwoPairCategorizer.cs" />
+        <Compile Include="PokerExample\HandCategorizerChain.cs" />
+        <Compile Include="PokerExample\Models\Card.cs" />
+        <Compile Include="PokerExample\Models\Deck.cs" />
+        <Compile Include="PokerExample\Models\Enums\HandRanking.cs" />
+        <Compile Include="PokerExample\Models\Enums\Suit.cs" />
+        <Compile Include="PokerExample\Models\Enums\Value.cs" />
+        <Compile Include="PokerExample\Models\Hand.cs" />
+        <Compile Include="PokerExample\PokerExecutor.cs" />
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>

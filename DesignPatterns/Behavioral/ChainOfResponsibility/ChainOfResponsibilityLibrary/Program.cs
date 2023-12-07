@@ -1,4 +1,5 @@
 ﻿using ChainOfResponsibilityLibrary.LoggingExample;
+using ChainOfResponsibilityLibrary.PokerExample;
 
 namespace ChainOfResponsibilityLibrary
 {
@@ -10,6 +11,7 @@ namespace ChainOfResponsibilityLibrary
         public static void Main(string[] args)
         {
             LoggingExecutor.Execute();
+            PokerExecutor.Execute();
 
         }
     }
