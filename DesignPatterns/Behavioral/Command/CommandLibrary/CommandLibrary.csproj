@@ -13,6 +13,7 @@
         <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
         <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+        <LangVersion>latest</LangVersion>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
         <PlatformTarget>AnyCPU</PlatformTarget>
@@ -49,6 +50,19 @@
         <Compile Include="EmailExample\Toolbar.cs" />
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
+        <Compile Include="ShoppingCartExample\CommandManager.cs" />
+        <Compile Include="ShoppingCartExample\Commands\AddToCartCommand.cs" />
+        <Compile Include="ShoppingCartExample\Commands\ChangeCartQuantityCommand.cs" />
+        <Compile Include="ShoppingCartExample\Commands\Common\ICommand.cs" />
+        <Compile Include="ShoppingCartExample\Commands\EmptyCartCommand.cs" />
+        <Compile Include="ShoppingCartExample\Commands\RemoveFromCartCommand.cs" />
+        <Compile Include="ShoppingCartExample\Models\ChangeCartQuantityOperation.cs" />
+        <Compile Include="ShoppingCartExample\Models\Product.cs" />
+        <Compile Include="ShoppingCartExample\Repositories\Common\IProductRepository.cs" />
+        <Compile Include="ShoppingCartExample\Repositories\Common\IShoppingCartRepository.cs" />
+        <Compile Include="ShoppingCartExample\Repositories\ProductRepository.cs" />
+        <Compile Include="ShoppingCartExample\Repositories\ShoppingCartRepository.cs" />
+        <Compile Include="ShoppingCartExecutor.cs" />
     </ItemGroup>
     <ItemGroup>
       <Content Include="Assets\pattern-structure.png" />

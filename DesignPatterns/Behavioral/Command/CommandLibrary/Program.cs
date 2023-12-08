@@ -7,7 +7,7 @@ namespace CommandLibrary
         public static void Main(string[] args)
         {
             EmailExecutor.Execute();
-
+            ShoppingCartExecutor.Execute();
         }
     }
 }
