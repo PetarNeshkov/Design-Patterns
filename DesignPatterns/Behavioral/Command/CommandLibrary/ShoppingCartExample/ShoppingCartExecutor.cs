@@ -1,11 +1,10 @@
 using System;
-using CommandLibrary.ShoppingCartExample;
 using CommandLibrary.ShoppingCartExample.Commands;
 using CommandLibrary.ShoppingCartExample.Models;
 using CommandLibrary.ShoppingCartExample.Repositories;
 using CommandLibrary.ShoppingCartExample.Repositories.Common;
 
-namespace CommandLibrary;
+namespace CommandLibrary.ShoppingCartExample;
 
 public static class ShoppingCartExecutor
 {

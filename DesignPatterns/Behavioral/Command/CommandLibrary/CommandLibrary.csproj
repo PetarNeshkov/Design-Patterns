@@ -62,7 +62,13 @@
         <Compile Include="ShoppingCartExample\Repositories\Common\IShoppingCartRepository.cs" />
         <Compile Include="ShoppingCartExample\Repositories\ProductRepository.cs" />
         <Compile Include="ShoppingCartExample\Repositories\ShoppingCartRepository.cs" />
-        <Compile Include="ShoppingCartExecutor.cs" />
+        <Compile Include="ShoppingCartExample\ShoppingCartExecutor.cs" />
+        <Compile Include="StockExample\Broker.cs" />
+        <Compile Include="StockExample\Commands\BuyStockCommand.cs" />
+        <Compile Include="StockExample\Commands\SellStockCommand.cs" />
+        <Compile Include="StockExample\Common\IOrderCommand.cs" />
+        <Compile Include="StockExample\Stock.cs" />
+        <Compile Include="StockExample\StockExecutor.cs" />
     </ItemGroup>
     <ItemGroup>
       <Content Include="Assets\pattern-structure.png" />
