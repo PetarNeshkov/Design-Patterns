@@ -1,21 +1,21 @@
 using System;
 
-namespace InterpreterLibrary
+namespace InterpreterLibrary.ExpressionCreator
 {
     public class Token
     {
         public Type Type;
-        private readonly string text;
+        public string Text;
         
         public Token(Type type, string text)
         {
-            this.text = text ?? throw new ArgumentNullException(paramName: nameof(text));
+            Text = text ?? throw new ArgumentNullException(paramName: nameof(text));
             Type = type;
         }
 
         public override string ToString()
         {
-            return $"`{text}`";
+            return $"`{Text}`";
         }
     }
 }

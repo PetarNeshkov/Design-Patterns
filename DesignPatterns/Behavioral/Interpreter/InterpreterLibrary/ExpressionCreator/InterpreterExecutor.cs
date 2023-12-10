@@ -1,6 +1,6 @@
 using System;
 
-namespace InterpreterLibrary
+namespace InterpreterLibrary.ExpressionCreator
 {
     public static class InterpreterExecutor
     {
@@ -12,6 +12,9 @@ namespace InterpreterLibrary
             var tokens = expressionCreator.Lex(input);
 
             Console.WriteLine(string.Join("\t", tokens));
+            
+            var parsedResult = expressionCreator.Parse(tokens);
+            Console.WriteLine($"{input} = {parsedResult}");
         }
     }
 }
