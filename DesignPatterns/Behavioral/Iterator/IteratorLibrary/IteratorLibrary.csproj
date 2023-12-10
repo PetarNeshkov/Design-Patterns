@@ -46,6 +46,12 @@
         <Compile Include="ConceptualExample\ConceptualExecutor.cs" />
         <Compile Include="ConceptualExample\Iterators\AlphabeticalOrderIterator.cs" />
         <Compile Include="ConceptualExample\Iterators\Common\Iterator.cs" />
+        <Compile Include="MusicFestivalExample\Collections\Common\IIterableCollection.cs" />
+        <Compile Include="MusicFestivalExample\Collections\FestivalCollection.cs" />
+        <Compile Include="MusicFestivalExample\Iterators\Common\IIterator.cs" />
+        <Compile Include="MusicFestivalExample\Iterators\FestivalIterator.cs" />
+        <Compile Include="MusicFestivalExample\Iterators\MusicFestival.cs" />
+        <Compile Include="MusicFestivalExample\MusicFestivalExecutor.cs" />
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>

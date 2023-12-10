@@ -1,4 +1,6 @@
 ﻿using IteratorLibrary.ConceptualExample;
+using IteratorLibrary.MusicFestivalExample;
+using IteratorLibrary.MusicFestivalExample.Iterators;
 
 namespace IteratorLibrary
 {
@@ -12,6 +14,7 @@ namespace IteratorLibrary
         public static void Main(string[] args)
         {
             ConceptualExecutor.Execute();
+            MusicFestivalExecutor.Execute();
         }
     }
 }
