@@ -48,6 +48,11 @@
         <Compile Include="AirTrafficControl\Components\Common\Aircraft.cs" />
         <Compile Include="AirTrafficControl\Mediators\Common\IAirTrafficControl.cs" />
         <Compile Include="AirTrafficControl\Mediators\FrankfurtAirTrafficControl.cs" />
+        <Compile Include="GroupChatExample\Components\Common\User.cs" />
+        <Compile Include="GroupChatExample\Components\ViberUser.cs" />
+        <Compile Include="GroupChatExample\GroupChatExecutor.cs" />
+        <Compile Include="GroupChatExample\Mediators\Common\IGroupChatMediator.cs" />
+        <Compile Include="GroupChatExample\Mediators\ViberGroupChatMediator.cs" />
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
