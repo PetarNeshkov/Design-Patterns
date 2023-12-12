@@ -46,6 +46,11 @@
         <Compile Include="ConceptualExample\ConcreteMemento.cs" />
         <Compile Include="ConceptualExample\IMemento.cs" />
         <Compile Include="ConceptualExample\Originator.cs" />
+        <Compile Include="FoodSupplierExample\FoodSupplier.cs" />
+        <Compile Include="FoodSupplierExample\FoodSupplierExecutor.cs" />
+        <Compile Include="FoodSupplierExample\FoodSupplierMemento.cs" />
+        <Compile Include="FoodSupplierExample\IMemento.cs" />
+        <Compile Include="FoodSupplierExample\SupplierRegistry.cs" />
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
