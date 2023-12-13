@@ -46,6 +46,9 @@
         <Compile Include="ConceptualExample\ConcreteMemento.cs" />
         <Compile Include="ConceptualExample\IMemento.cs" />
         <Compile Include="ConceptualExample\Originator.cs" />
+        <Compile Include="EmployeeExample\CareTakerEmployee.cs" />
+        <Compile Include="EmployeeExample\EmployeeExecutor.cs" />
+        <Compile Include="EmployeeExample\IOriginatorEmployee.cs" />
         <Compile Include="FoodSupplierExample\FoodSupplier.cs" />
         <Compile Include="FoodSupplierExample\FoodSupplierExecutor.cs" />
         <Compile Include="FoodSupplierExample\FoodSupplierMemento.cs" />
@@ -53,6 +56,9 @@
         <Compile Include="FoodSupplierExample\SupplierRegistry.cs" />
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
+        <Compile Include="EmployeeExample\EmployeeMemento.cs" />
+        <Compile Include="EmployeeExample\IMemento.cs" />
+        <Compile Include="EmployeeExample\OriginatorEmployee.cs" />
     </ItemGroup>
     <ItemGroup>
       <Content Include="Assets\pattern-structure-1.png" />
