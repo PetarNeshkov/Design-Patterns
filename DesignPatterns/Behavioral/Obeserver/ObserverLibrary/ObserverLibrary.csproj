@@ -48,6 +48,13 @@
         <Compile Include="NewspaperExample\Subscribers\User.cs" />
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
+        <Compile Include="StockExample\Examples\EventAndDelegate\EventAndDelegateExecutor.cs" />
+        <Compile Include="StockExample\Examples\EventAndDelegate\Publishers\StockTicker.cs" />
+        <Compile Include="StockExample\Examples\EventAndDelegate\StockChangeEventArgs.cs" />
+        <Compile Include="StockExample\Examples\EventAndDelegate\Subscribers\GoogleSubscriber.cs" />
+        <Compile Include="StockExample\Examples\EventAndDelegate\Subscribers\MicrosoftSubscriber.cs" />
+        <Compile Include="StockExample\Examples\Stock.cs" />
+        <Compile Include="StockExample\Examples\StockRepository.cs" />
     </ItemGroup>
     <ItemGroup>
       <Content Include="Assets\pattern-structure.png" />

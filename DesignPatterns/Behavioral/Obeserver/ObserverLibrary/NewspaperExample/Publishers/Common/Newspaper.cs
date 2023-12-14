@@ -16,7 +16,7 @@ namespace ObserverLibrary.NewspaperExample.Publishers.Common
             this.name = name;
             this.monthlyPrice = monthlyPrice;
             
-            this.subscribers = new Dictionary<string, IUser>();
+            subscribers = new Dictionary<string, IUser>();
         }
         
         public decimal MonthlyPrice
