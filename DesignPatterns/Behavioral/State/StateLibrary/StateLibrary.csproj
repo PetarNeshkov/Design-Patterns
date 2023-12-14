@@ -53,6 +53,15 @@
         <Compile Include="PackageExample\States\ReceivedState.cs" />
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
+        <Compile Include="StateCookingExecutor\States\Common\Doneness.cs" />
+        <Compile Include="StateCookingExecutor\States\Common\Medium.cs" />
+        <Compile Include="StateCookingExecutor\States\Common\MediumRare.cs" />
+        <Compile Include="StateCookingExecutor\States\Common\Overcooked.cs" />
+        <Compile Include="StateCookingExecutor\States\Common\Rare.cs" />
+        <Compile Include="StateCookingExecutor\States\Common\Uncooked.cs" />
+        <Compile Include="StateCookingExecutor\States\Common\WellDone.cs" />
+        <Compile Include="StateCookingExecutor\States\SteakCookingExecutor.cs" />
+        <Compile Include="StateCookingExecutor\Steak.cs" />
     </ItemGroup>
     <ItemGroup>
       <Content Include="Assets\pattern-structure.png" />

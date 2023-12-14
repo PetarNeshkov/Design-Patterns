@@ -1,6 +1,7 @@
 ﻿using StateLibrary.ConceptualExample;
 using StateLibrary.PackageExample;
 using StateLibrary.PackageExample.States.Common;
+using StateLibrary.StateCookingExecutor.States;
 
 namespace StateLibrary
 {
@@ -12,6 +13,7 @@ namespace StateLibrary
         {
             ConceptualExecutor.Execute();
             PackageExecutor.Execute();
+            SteakCookingExecutor.Execute();
         }
     }
 }
