@@ -41,6 +41,7 @@
         <Reference Include="System.Xml"/>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Motivating\MotivatingExecutor.cs" />
         <Compile Include="NewspaperExample\NewspaperExecutor.cs" />
         <Compile Include="NewspaperExample\Publishers\Common\Newspaper.cs" />
         <Compile Include="NewspaperExample\Publishers\DailyMail.cs" />

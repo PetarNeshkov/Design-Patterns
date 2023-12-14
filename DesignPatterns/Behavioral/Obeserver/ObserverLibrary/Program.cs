@@ -1,4 +1,5 @@
-﻿using ObserverLibrary.NewspaperExample;
+﻿using ObserverLibrary.Motivating;
+using ObserverLibrary.NewspaperExample;
 using ObserverLibrary.StockExample.Examples.EventAndDelegate;
 using ObserverLibrary.StockExample.Examples.IObserver;
 
@@ -11,6 +12,7 @@ namespace ObserverLibrary
             NewspaperExecutor.Execute();
             EventAndDelegateExecutor.Execute();
             ObserverExecutor.Execute();
+            MotivatingExecutor.Execute();
         }
     }
 }
