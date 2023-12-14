@@ -45,6 +45,12 @@
         <Compile Include="ConceptualExample\ConcreteStateA.cs" />
         <Compile Include="ConceptualExample\ConcreteStateB.cs" />
         <Compile Include="ConceptualExample\Context.cs" />
+        <Compile Include="PackageExample\Package.cs" />
+        <Compile Include="PackageExample\PackageExecutor.cs" />
+        <Compile Include="PackageExample\States\Common\PackageState.cs" />
+        <Compile Include="PackageExample\States\DeliveredState.cs" />
+        <Compile Include="PackageExample\States\OrderedState.cs" />
+        <Compile Include="PackageExample\States\ReceivedState.cs" />
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>

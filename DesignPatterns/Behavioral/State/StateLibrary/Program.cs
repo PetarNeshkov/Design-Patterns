@@ -1,4 +1,6 @@
 ﻿using StateLibrary.ConceptualExample;
+using StateLibrary.PackageExample;
+using StateLibrary.PackageExample.States.Common;
 
 namespace StateLibrary
 {
@@ -9,7 +11,7 @@ namespace StateLibrary
         public static void Main(string[] args)
         {
             ConceptualExecutor.Execute();
-
+            PackageExecutor.Execute();
         }
     }
 }
