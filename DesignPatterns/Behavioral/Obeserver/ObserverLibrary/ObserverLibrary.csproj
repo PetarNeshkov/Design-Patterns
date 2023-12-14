@@ -41,7 +41,6 @@
         <Reference Include="System.Xml"/>
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="Motivating\MotivatingExecutor.cs" />
         <Compile Include="NewspaperExample\NewspaperExecutor.cs" />
         <Compile Include="NewspaperExample\Publishers\Common\Newspaper.cs" />
         <Compile Include="NewspaperExample\Publishers\DailyMail.cs" />
@@ -59,8 +58,15 @@
         <Compile Include="StockExample\Examples\IObserver\Subscribers\DisposableSubscriber.cs" />
         <Compile Include="StockExample\Examples\IObserver\Subscribers\GoogleSubscriber.cs" />
         <Compile Include="StockExample\Examples\IObserver\Subscribers\MicrosoftSubscriber.cs" />
+        <Compile Include="StockExample\Examples\Motivating\MotivatingExecutor.cs" />
         <Compile Include="StockExample\Examples\Stock.cs" />
         <Compile Include="StockExample\Examples\StockRepository.cs" />
+        <Compile Include="StockExample\Examples\Traditional\Publishers\Common\Publisher.cs" />
+        <Compile Include="StockExample\Examples\Traditional\Publishers\StockTicker.cs" />
+        <Compile Include="StockExample\Examples\Traditional\Subscribers\Common\Subscriber.cs" />
+        <Compile Include="StockExample\Examples\Traditional\Subscribers\GoogleSubscriber.cs" />
+        <Compile Include="StockExample\Examples\Traditional\Subscribers\MicrosoftSubscriber.cs" />
+        <Compile Include="StockExample\Examples\Traditional\TraditionalExecutor.cs" />
     </ItemGroup>
     <ItemGroup>
       <Content Include="Assets\pattern-structure.png" />

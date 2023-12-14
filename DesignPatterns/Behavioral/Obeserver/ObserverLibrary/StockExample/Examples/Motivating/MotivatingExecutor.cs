@@ -1,7 +1,6 @@
 using System;
-using ObserverLibrary.StockExample.Examples;
 
-namespace ObserverLibrary.Motivating;
+namespace ObserverLibrary.StockExample.Examples.Motivating;
 
 public static class MotivatingExecutor
 {
