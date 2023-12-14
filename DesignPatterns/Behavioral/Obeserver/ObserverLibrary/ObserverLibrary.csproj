@@ -53,6 +53,11 @@
         <Compile Include="StockExample\Examples\EventAndDelegate\StockChangeEventArgs.cs" />
         <Compile Include="StockExample\Examples\EventAndDelegate\Subscribers\GoogleSubscriber.cs" />
         <Compile Include="StockExample\Examples\EventAndDelegate\Subscribers\MicrosoftSubscriber.cs" />
+        <Compile Include="StockExample\Examples\IObserver\ObserverExecutor.cs" />
+        <Compile Include="StockExample\Examples\IObserver\Publishers\StockTicker.cs" />
+        <Compile Include="StockExample\Examples\IObserver\Subscribers\DisposableSubscriber.cs" />
+        <Compile Include="StockExample\Examples\IObserver\Subscribers\GoogleSubscriber.cs" />
+        <Compile Include="StockExample\Examples\IObserver\Subscribers\MicrosoftSubscriber.cs" />
         <Compile Include="StockExample\Examples\Stock.cs" />
         <Compile Include="StockExample\Examples\StockRepository.cs" />
     </ItemGroup>
