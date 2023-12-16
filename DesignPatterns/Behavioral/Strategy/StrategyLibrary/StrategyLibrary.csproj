@@ -50,6 +50,13 @@
         <Compile Include="ShippingExample\ShippingProviders\FedEx.cs" />
         <Compile Include="ShippingExample\ShippingProviders\RoyalMail.cs" />
         <Compile Include="ShippingExample\ShippingProviders\UnitedParcelService.cs" />
+        <Compile Include="SortingExample\Person.cs" />
+        <Compile Include="SortingExample\SortablePersons.cs" />
+        <Compile Include="SortingExample\SortingExecutor.cs" />
+        <Compile Include="SortingExample\Strategies\Common\ISortStrategy.cs" />
+        <Compile Include="SortingExample\Strategies\SortByFirstName.cs" />
+        <Compile Include="SortingExample\Strategies\SortByLastName.cs" />
+        <Compile Include="SortingExample\Strategies\SortByYearOfBirth.cs" />
     </ItemGroup>
     <ItemGroup>
       <Content Include="Assets\pattern-structure.png" />

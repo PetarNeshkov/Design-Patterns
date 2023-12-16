@@ -1,4 +1,5 @@
 ﻿using StrategyLibrary.ShippingExample;
+using StrategyLibrary.SortingExample;
 
 namespace StrategyLibrary
 {
@@ -7,6 +8,7 @@ namespace StrategyLibrary
         public static void Main(string[] args)
         {
             ShippingExecutor.Execute();
+            SortingExecutor.Execute();
         }
     }
 }
