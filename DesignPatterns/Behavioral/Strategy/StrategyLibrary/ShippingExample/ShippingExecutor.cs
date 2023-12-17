@@ -4,6 +4,7 @@ using StrategyLibrary.ShippingExample.ShippingProviders.Common;
 
 namespace StrategyLibrary.ShippingExample
 {
+    
     public static class ShippingExecutor
     {
         public static void Execute()
