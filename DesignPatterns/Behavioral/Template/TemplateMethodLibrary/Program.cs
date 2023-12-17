@@ -1,4 +1,5 @@
 ﻿using TemplateMethodLibrary.BreadExample;
+using TemplateMethodLibrary.ConceptualExample;
 
 namespace TemplateMethodLibrary
 {
@@ -10,6 +11,7 @@ namespace TemplateMethodLibrary
         public static void Main(string[] args)
         {
             BreadExecutor.Execute();
+            ConceptualExecutor.Execute();
         }
     }
 }

@@ -44,6 +44,11 @@
         <Compile Include="BreadExample\BreadExecutor.cs" />
         <Compile Include="BreadExample\WhiteBread.cs" />
         <Compile Include="BreadExample\WholeWheatBread.cs" />
+        <Compile Include="ConceptualExample\AbstractClass.cs" />
+        <Compile Include="ConceptualExample\Client.cs" />
+        <Compile Include="ConceptualExample\ConceptualExecutor.cs" />
+        <Compile Include="ConceptualExample\ConcreteClass1.cs" />
+        <Compile Include="ConceptualExample\ConcreteClass2.cs" />
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
