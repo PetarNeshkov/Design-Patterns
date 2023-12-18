@@ -39,6 +39,7 @@
         <Reference Include="System.Core"/>
         <Reference Include="System.Data"/>
         <Reference Include="System.Xml"/>
+        <Reference Include="Microsoft.CSharp" />
     </ItemGroup>
     <ItemGroup>
         <Compile Include="CompanyExample\Company.cs" />
@@ -51,6 +52,15 @@
         <Compile Include="CompanyExample\Visitors\Common\IPerformanceReview.cs" />
         <Compile Include="CompanyExample\Visitors\IncomeRegulation.cs" />
         <Compile Include="CompanyExample\Visitors\VacationRegulation.cs" />
+        <Compile Include="PersonDynamicProgrammingExample\Elements\BankSavingsAccount.cs" />
+        <Compile Include="PersonDynamicProgrammingExample\Elements\Common\IAsset.cs" />
+        <Compile Include="PersonDynamicProgrammingExample\Elements\Loan.cs" />
+        <Compile Include="PersonDynamicProgrammingExample\Elements\RealEstate.cs" />
+        <Compile Include="PersonDynamicProgrammingExample\Person.cs" />
+        <Compile Include="PersonDynamicProgrammingExample\PersonDynamicProgrammingExecutor.cs" />
+        <Compile Include="PersonDynamicProgrammingExample\Visitors\Common\AssetVisitor.cs" />
+        <Compile Include="PersonDynamicProgrammingExample\Visitors\MonthlyIncomeVisitor.cs" />
+        <Compile Include="PersonDynamicProgrammingExample\Visitors\NetWorthVisitor.cs" />
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
