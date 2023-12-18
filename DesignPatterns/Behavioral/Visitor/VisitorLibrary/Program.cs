@@ -1,6 +1,6 @@
-﻿using System.Linq.Expressions;
-using VisitorLibrary.CompanyExample;
+﻿using VisitorLibrary.CompanyExample;
 using VisitorLibrary.PersonDynamicProgrammingExample;
+using VisitorLibrary.PersonExample;
 
 namespace VisitorLibrary
 {
@@ -10,6 +10,7 @@ namespace VisitorLibrary
         {
             CompanyExecutor.Execute();
             PersonDynamicProgrammingExecutor.Execute();
+            PersonExecutor.Execute();
         }
     }
 }

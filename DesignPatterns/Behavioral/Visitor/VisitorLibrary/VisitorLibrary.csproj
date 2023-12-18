@@ -61,6 +61,15 @@
         <Compile Include="PersonDynamicProgrammingExample\Visitors\Common\AssetVisitor.cs" />
         <Compile Include="PersonDynamicProgrammingExample\Visitors\MonthlyIncomeVisitor.cs" />
         <Compile Include="PersonDynamicProgrammingExample\Visitors\NetWorthVisitor.cs" />
+        <Compile Include="PersonExample\Elements\BankSavingsAccount.cs" />
+        <Compile Include="PersonExample\Elements\Common\IAsset.cs" />
+        <Compile Include="PersonExample\Elements\Loan.cs" />
+        <Compile Include="PersonExample\Elements\RealEstate.cs" />
+        <Compile Include="PersonExample\Person.cs" />
+        <Compile Include="PersonExample\PersonExecutor.cs" />
+        <Compile Include="PersonExample\Visitors\Common\IVisitor.cs" />
+        <Compile Include="PersonExample\Visitors\MonthlyIncomeVisitor.cs" />
+        <Compile Include="PersonExample\Visitors\NetWorthVisitor.cs" />
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
