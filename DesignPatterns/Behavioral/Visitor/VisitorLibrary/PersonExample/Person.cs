@@ -4,6 +4,11 @@ using VisitorLibrary.PersonExample.Visitors.Common;
 
 namespace VisitorLibrary.PersonExample;
 
+// EN: The client code can run visitor operations over any set of
+// elements without figuring out their concrete classes. The accept
+// operation directs a call to the appropriate operation in the visitor
+// object.
+//
 public class Person
 {
     private readonly List<IAsset> assets = new();
